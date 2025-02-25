@@ -6,15 +6,18 @@ Ele usa símbolos padronizados para representar ações, decisões e o fluxo ent
 facilitandoa compreensão e análise do processo.
 ```
 ## Os principais símbolos de fluxogramas são:
-![fluxo](https://zeev.it/wp-content/uploads/2023/11/Desenho-de-um-tipo-de-fluxograma.jpg.webp)
-
 ```
-Retângulo: Ação ou processo.
-Losango: Decisão.
-Oval: Início ou fim.
-Setas: Direção do fluxo.
-Paralelogramo: Entrada ou saída de dados.
-Círculo: Conector entre partes do fluxograma.
+Retângulo: Ação ou processo
+
+Losango: Decisão
+
+Oval: Início ou fim
+
+Setas: Direção do fluxo
+
+Paralelogramo: Entrada ou saída de dados
+
+Círculo: Conector entre partes do fluxograma
 ```
 ## Como os fluxogramas são utilizados no desenvolvimento de sistemas
 ```
@@ -30,34 +33,47 @@ facilitando o entendimento entre desenvolvedores, analistas e outros envolvidos.
 ```
 ## Exemplos de fluxogramas aplicados à lógica de programação
 ```
- Fluxograma de um Algoritmo de Soma de Dois Números
-Este fluxograma ilustra o processo de somar dois números fornecidos pelo usuário.
-
 Início
-Entrada: Recebe dois números (A e B).
-Processo: Soma A + B.
-Saída: Exibe o resultado da soma.
+  |
+  v
+Receber A, B
+  |
+  v
+Soma = A + B
+  |
+  v
+Exibir Soma
+  |
+  v
 Fim
 ```
 ---
 ```
-Fluxograma de um Algoritmo de Verificação de Número Par ou Ímpar
-Este fluxograma verifica se um número é par ou ímpar.
-
 Início
-Entrada: Recebe um número N.
-Decisão: Verifica se N é divisível por 2 (N % 2 == 0).
-Sim: Exibe "N é par".
-Não: Exibe "N é ímpar".
+  |
+  v
+Receber N
+  |
+  v
+N > 0?
+  |             |
+  v             v
+Sim           Não
+  |             |
+  v             v
+Exibir "Positivo" Exibir "Negativo"
+  |
+  v
 Fim
 ```
 ## Ferramentas que podem ser utilizadas para criar fluxogramas
 ```
-Lucidchart: Plataforma online que oferece diversos templates e recursos para criar fluxogramas de forma colaborativa.
+-Lucidchart: Online, fácil de usar, com integração com Google Drive e Microsoft Office.
 
-Microsoft Visio: Software robusto da Microsoft para criar diagramas e fluxogramas profissionais.
+-Draw.io (diagrams.net): Gratuita, offline e com muitos templates.
 
-Draw.io (diagrams.net): Ferramenta gratuita e online para criar fluxogramas e outros tipos de diagramas.
+-Microsoft Visio: Ferramenta robusta para diagramas, parte do pacote Office.
+
 ```
 
 
